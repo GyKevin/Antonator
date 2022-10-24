@@ -1,14 +1,15 @@
-var url = "https://drive.google.com/uc?id=1fp-JrejEDJFnQAKLsvXWAInA5IAzUV0I";
+//image link
+var img ="https://drive.google.com/uc?id=1fp-JrejEDJFnQAKLsvXWAInA5IAzUV0I";
 
-// Replace google images with the image from the url
+//replace images with anton
 chrome.storage.sync.get({
-enabled: true,
+    enabled: true,
 }, function(items) {
-    if (items.enabled) {
+    if(items.enabled) {
         setInterval(() => {
         var images = document.getElementsByTagName("img");
         for (var i = 0; i < images.length; i++) {
-        images[i].src = url;
-            } 
-        }, 1000);  
-}});
+            images[i].src = img;
+        }
+    }, 1000); //set interval
+}}); //function
