@@ -1,6 +1,6 @@
 # Antonator
 Antonator is an extension that changes all google images to a picture of Anton
-As of right now this extension is not avilable on the Chrome web store yet.
+Now avilable on the <a href="https://chrome.google.com/webstore/detail/antonator/fmnbboccfkfmkajfbiodkdkebfchihja">Chrome Web Store</a>!
 ---
 Do the following to use this extension:
 1. Download or clone this repo. <br>
